@@ -2,10 +2,10 @@
   "name": "tictactoe-react",
   "version": "1.0.0",
   "description": "Simple Tic-Tac-Toe teaching example with React 18",
-  "homepage": "https://dtopio.github.io/ttt-first-deployment",
+  "homepage": "https://dtopio.github.io/ttt-first-deployment/",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html  --public-url /ttt-first-deployment/",
+    "build": "parcel build public/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
