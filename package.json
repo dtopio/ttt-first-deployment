@@ -5,7 +5,7 @@
   "homepage": "https://dtopio.github.io/ttt-first-deployment",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html  --public-url/ttt-first-deployment/",
+    "build": "parcel build public/index.html  --public-url /ttt-first-deployment/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
